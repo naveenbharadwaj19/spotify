@@ -10,7 +10,7 @@ def shazam_():
     options.headless = True
     url = "https://www.shazam.com"
     print ("Fetching data from Shazam")
-    driver = webdriver.Firefox(executable_path="C:\\Program Files\\Mozilla Firefox\\firefox driver\\geckodriver",options= options)
+    driver = webdriver.Firefox(executable_path="path/geckodriver",options= options)
     driver.get(url)
 
     #click library

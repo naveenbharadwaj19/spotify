@@ -1,2 +1,5 @@
-email_address = "claw2020@gmail.com"
-password = "ben10a123"
+email_address = ""
+password = ""
+
+
+#Facebook email address and password

@@ -5,13 +5,13 @@ import csv
 
 class Spotify_():
     def __init__(self):
-        self.user_id = "ybhsn8f4y7q56c3uatusske9g"
-        self.token = "BQAspkGaG_ct9GEIyracytDBbPdRl0954q6CgKgzHGJ3p1suMmeWuJBtOBxDf16J52DwI20wYHgbUUVBOwW5rECLJWUPmzkbdq2S3hV5I-c4rLSBdqhfwVRM-IMZKDG0MXE6uMNcEh_xBadG0y8Xn4Co-Qw7Z0o2hkBgznCDsHNeF58SmTJh9Hyc354ub20n0Ri_eK2l89BKU79hE6Kg_0O0816t"
+        self.user_id = "spotify username"
+        self.token = "Oauth token"
 
     def create_playlist(self):
         req_body = json.dumps({
-                "name": "Shazam tracked songs",
-                "description": "Songs found in Shazam",
+                "name": "Shazam tracked songs", #Playlist name
+                "description": "Songs found in Shazam", 
                 "public": True,
             })
 
