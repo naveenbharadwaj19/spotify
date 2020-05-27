@@ -12,9 +12,11 @@
 ## Get spotify username:
 
 * www.spotify.com/
+![](pic/username.png)
 ‎
 ‎
 ## Get token :
+![](pic/token.png)
 *  Spotify oauth token will expire very soon 
 *  visit developer.spotify.com/console/post-playlists to generate oauth token  
 *  If keyError occurs try to regenerate oauth token
